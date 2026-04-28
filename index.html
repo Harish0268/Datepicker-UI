@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <title>Date picker</title>
+</head>
+<body class="p-10 w-72">
+    <div class="relative">
+        <div class="datepicker">
+            <div class="datepicker-input border p-2 m-2 flex items-center rounded-md overflow-hidden">
+                <input type="text" class="w-full outline-none" placeholder="dd/mm/yyyy">
+                <button class="datepicker-icon">
+                    <i class="bi bi-calendar-date"></i>
+                </button>
+            </div>
+        </div>
+    
+        
+    
+        <div class="calendar-body absolute top-full left-0 mt-2 bg-white shadow-md   ">
+
+            <div class="calendar-header bg-gray-200 px-3 py-2 mb-3 rounded-md">
+            <div class="calendar-content flex justify-between items-center ">
+                <button class="cursor-pointer">
+                <i class="bi bi-chevron-left"></i>
+                </button>
+                <span><p class="font-medium">December 22</p></span>
+                <button class="cursor-pointer">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+            <table class=" text-center w-full rounded-md">
+                <tr class="">
+                    <th class=" p-2">S</th>
+                    <th class=" p-2">M</th>
+                    <th class=" p-2">T</th>
+                    <th class=" p-2">W</th>
+                    <th class=" p-2">T</th>
+                    <th class=" p-2">F</th>
+                    <th class=" p-2">S</th>
+                </tr>
+                <tr class=" ">
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">1</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">2</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">3</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">4</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">5</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">6</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">7</td>
+                </tr>
+                <tr class=>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">8</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">9</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">10</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">11</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">12</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">13</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">14</td>
+                </tr>
+                <tr class=>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">15</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">16</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">17</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">18</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">19</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">20</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">21</td>
+                </tr>
+                <tr class=>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">22</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">23</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">24</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">25</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">26</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">27</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">28</td>
+                </tr>
+                <tr class=>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">29</td>
+                    <td class="p-2 hover:bg-gray-200 cursor-pointer rounded">30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
